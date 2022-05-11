@@ -2,22 +2,31 @@ from rembg import remove
 import cv2
 import matplotlib.pyplot as plt
 from PIL import Image
+import sys
 
 
 def quitarFondo(imagen,ruta):
     input = Image.open(imagen)
+    print("Dentro del metodo")
     output = remove(input)
     output.save(ruta)
+    return "ya esta"
+
+output_path = "C:\\Users\\Carlos\\PycharmProjects\\remb\\output2.png"
 
 
-input_path = 'Images/Training/IMG_0008.JPG'
-output_path = 'output2.png'
+imagen = "C:\ProyectOCR\Data\Fotos Lápidas\IMG_0001.JPG"
+print("prueba desde python")
 
+imagen = str(sys.argv[1])
+output_path = str(sys.argv[2])
 
-imagen_problematica = "output.png"
+print("Desde python")
+print(imagen)
+print(output_path)
 
-
-quitarFondo(imagen_problematica, output_path)
+quitarFondo(imagen, output_path)
+print("prueba desde python2")
 
 
 
