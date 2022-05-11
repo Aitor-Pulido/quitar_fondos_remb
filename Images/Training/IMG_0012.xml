@@ -1,0 +1,26 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>IMG_0012.JPG</filename>
+    <path>EntrenadorLapidas-PascalVOC-export/Annotations/IMG_0012.JPG</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>400</width>
+        <height>267</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+    <name>lapidas</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>103.39832361516035</xmin>
+        <ymin>53.05021834061135</ymin>
+        <xmax>314.18549562682216</xmax>
+        <ymax>234.0622270742358</ymax>
+    </bndbox>
+</object>
+</annotation>
