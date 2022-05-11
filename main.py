@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import sys
 
-
+# Usa anaconca y python 3.9
 def quitarFondo(imagen,ruta):
     input = Image.open(imagen)
     print("Dentro del metodo")
